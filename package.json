@@ -1,4 +1,5 @@
 {
   "name": "grunt-browserify-extreme",
-  "description": "Yet another Browserify task for Gruntjs - except this one works. Kind of."
+  "description": "Yet another Browserify task for Gruntjs - except this one works. Kind of.",
+  "version": "0.1.0"
 }

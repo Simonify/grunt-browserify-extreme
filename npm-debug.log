@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose publish [ '.' ]
+5 verbose read json /Users/simonfletcher/dev/Gantt/node_modules/grunt-browserify-extreme/package.json
+6 error Error: No version provided
+6 error     at needVersion (/usr/local/lib/node_modules/npm/lib/publish.js:112:40)
+6 error     at /usr/local/lib/node_modules/npm/lib/publish.js:35:10
+6 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:80:40
+6 error     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:367:17)
+6 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:140:33
+6 error     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+6 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:335:40
+6 error     at fs.js:252:14
+6 error     at Object.oncomplete (fs.js:93:15)
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Darwin 12.2.0
+9 error command "node" "/usr/local/bin/npm" "publish"
+10 error cwd /Users/simonfletcher/dev/Gantt/node_modules/grunt-browserify-extreme
+11 error node -v v0.10.0
+12 error npm -v 1.2.14
+13 verbose exit [ 1, true ]
