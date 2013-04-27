@@ -1,5 +1,9 @@
 {
   "name": "grunt-browserify-extreme",
   "description": "Yet another Browserify task for Gruntjs - except this one works. Kind of.",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "browserify": "~2.13.2",
+    "browserify-shim": "~2.0.3"
+  }
 }

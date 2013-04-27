@@ -8,6 +8,11 @@ module.exports = function (grunt) {
     var done = this.async();
     var b = browserify();
 
+    
+    if (typeof this.data.shim === 'object') {
+      require('browserify-shim')(b,this.data.shim);
+    }
+
     if (this.data.beforeHook) {
       this.data.beforeHook.call(this, b);
     }
